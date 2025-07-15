@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the gallery of Springdale High."
+    />
+    <title>Gallery - Springdale High</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="container">
+          <a href="/" class="logo">
+            <i class="fas fa-school"></i>
+            <h1>Springdale High</h1>
+          </a>
+          <nav>
+            <button id="mobile-menu-btn" aria-label="Open Menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="desktop-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="student-life.html">Student Life</a></li>
+              <li><a href="gallery.html" class="active">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </nav>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="student-life.html">Student Life</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <h1 class="page-title">Gallery</h1>
+
+          <section id="gallery-grid" class="content-section">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img
+                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                  alt="Gallery Image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                  alt="Gallery Image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                  alt="Gallery Image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                  alt="Gallery Image"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p class="tagline">Nurturing the leaders of tomorrow.</p>
+          <p class="copyright">
+            &copy; <span id="current-year"></span> Springdale High. All Rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>

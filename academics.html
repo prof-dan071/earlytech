@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the academic programs and curriculum at Springdale High."
+    />
+    <title>Academics - Springdale High</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="container">
+          <a href="/" class="logo">
+            <i class="fas fa-school"></i>
+            <h1>Springdale High</h1>
+          </a>
+          <nav>
+            <button id="mobile-menu-btn" aria-label="Open Menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="desktop-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="academics.html" class="active">Academics</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="student-life.html">Student Life</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </nav>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html" class="active">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="student-life.html">Student Life</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <h1 class="page-title">Our Curriculum</h1>
+
+          <section id="curriculum-overview" class="content-section">
+            <h2 class="section-title">Program Levels</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button class="accordion-header">
+                  <span>Basic School (Grades 1-6)</span>
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Our basic school program focuses on foundational skills in
+                    literacy, numeracy, and science, fostering a love for
+                    learning in a nurturing environment.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-header">
+                  <span>Junior High School (Grades 7-9)</span>
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    The JHS curriculum builds on earlier foundations, preparing
+                    students for more advanced studies with a focus on critical
+                    thinking and problem-solving.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-header">
+                  <span>Senior High School (Grades 10-12)</span>
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Our SHS program offers specialized tracks in Science, Arts,
+                    and Business, preparing students for tertiary education and
+                    future careers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="academic-calendar" class="content-section">
+            <h2 class="section-title">Academic Calendar</h2>
+            <p>
+              View our detailed academic calendar for the current school year.
+            </p>
+            <a href="downloads/academic-calendar.pdf" class="btn btn-primary" download
+              ><i class="fas fa-download"></i> Download Calendar</a
+            >
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p class="tagline">Nurturing the leaders of tomorrow.</p>
+          <p class="copyright">
+            &copy; <span id="current-year"></span> Springdale High. All Rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>

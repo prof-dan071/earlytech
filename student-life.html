@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover student life, clubs, and activities at Springdale High."
+    />
+    <title>Student Life - Springdale High</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="container">
+          <a href="/" class="logo">
+            <i class="fas fa-school"></i>
+            <h1>Springdale High</h1>
+          </a>
+          <nav>
+            <button id="mobile-menu-btn" aria-label="Open Menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="desktop-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="student-life.html" class="active">Student Life</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </nav>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="student-life.html" class="active">Student Life</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <h1 class="page-title">Life at Our School</h1>
+
+          <section id="clubs-extracurriculars" class="content-section">
+            <h2 class="section-title">Clubs & Extracurriculars</h2>
+            <p>
+              We offer a wide range of clubs and activities to help students
+              explore their interests and develop new skills.
+            </p>
+            <div class="clubs-grid">
+              <div class="club-card">
+                <i class="fas fa-flask"></i>
+                <span>Science Club</span>
+              </div>
+              <div class="club-card">
+                <i class="fas fa-palette"></i>
+                <span>Art Club</span>
+              </div>
+              <div class="club-card">
+                <i class="fas fa-music"></i>
+                <span>Music Club</span>
+              </div>
+              <div class="club-card">
+                <i class="fas fa-futbol"></i>
+                <span>Sports Club</span>
+              </div>
+            </div>
+          </section>
+
+          <section id="sports-activities" class="content-section">
+            <h2 class="section-title">Sports & Activities</h2>
+            <p>
+              Our sports program promotes teamwork, discipline, and physical
+              fitness. Students can participate in various sports, including
+              soccer, basketball, and athletics.
+            </p>
+          </section>
+
+          <section id="school-rules" class="content-section">
+            <h2 class="section-title">School Rules & Uniform</h2>
+            <p>
+              We maintain a dress code to ensure a professional and respectful
+              learning environment.
+            </p>
+            <a href="#" class="btn btn-outline"
+              ><i class="fas fa-book"></i> View Student Handbook</a
+            >
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p class="tagline">Nurturing the leaders of tomorrow.</p>
+          <p class="copyright">
+            &copy; <span id="current-year"></span> Springdale High. All Rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>

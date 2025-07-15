@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn about the history, mission, and values of Springdale High."
+    />
+    <title>About Us - Springdale High</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="container">
+          <a href="/" class="logo">
+            <i class="fas fa-school"></i>
+            <h1>Springdale High</h1>
+          </a>
+          <nav>
+            <button id="mobile-menu-btn" aria-label="Open Menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="desktop-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html" class="active">About Us</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="student-life.html">Student Life</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </nav>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="student-life.html">Student Life</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <h1 class="page-title">About Our School</h1>
+
+          <section id="school-history" class="content-section">
+            <h2 class="section-title">Our History</h2>
+            <p>
+              Founded in 1985, Springdale High has a rich history of providing
+              quality education to students in the community. From our humble
+              beginnings, we have grown into a leading institution known for
+              our commitment to academic excellence and student development.
+            </p>
+          </section>
+
+          <section id="mission-vision-values" class="content-section">
+            <h2 class="section-title">Mission, Vision, and Values</h2>
+            <div class="mission-vision-grid">
+              <div class="grid-item">
+                <i class="fas fa-bullseye"></i>
+                <h3>Our Mission</h3>
+                <p>
+                  To provide a challenging and supportive learning environment
+                  that encourages high expectations for success.
+                </p>
+              </div>
+              <div class="grid-item">
+                <i class="fas fa-eye"></i>
+                <h3>Our Vision</h3>
+                <p>
+                  To be a leading institution recognized for our innovative
+                  approach to education and our commitment to student success.
+                </p>
+              </div>
+              <div class="grid-item">
+                <i class="fas fa-heart"></i>
+                <h3>Our Values</h3>
+                <p>
+                  We value respect, integrity, collaboration, and a passion
+                  for learning.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="faculty" class="content-section">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="faculty-grid">
+              <div class="faculty-card">
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+                  alt="Faculty Member"
+                />
+                <h4>Dr. Jane Doe</h4>
+                <p>Headmaster</p>
+              </div>
+              <div class="faculty-card">
+                <img
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+                  alt="Faculty Member"
+                />
+                <h4>Mr. John Smith</h4>
+                <p>Head of Academics</p>
+              </div>
+              <div class="faculty-card">
+                <img
+                  src="https://images.unsplash.com/photo-1573496773905-1a2a4a9a9b29?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+                  alt="Faculty Member"
+                />
+                <h4>Mrs. Emily White</h4>
+                <p>Admissions Director</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p class="tagline">Nurturing the leaders of tomorrow.</p>
+          <p class="copyright">
+            &copy; <span id="current-year"></span> Springdale High. All Rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>

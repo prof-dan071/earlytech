@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Springdale High School, a place of academic excellence and character development."
+    />
+    <title>Welcome to Springdale High School - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="container">
+          <a href="/" class="logo">
+            <i class="fas fa-school"></i>
+            <h1>Springdale High</h1>
+          </a>
+          <nav>
+            <button id="mobile-menu-btn" aria-label="Open Menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="desktop-menu">
+              <li><a href="/" class="active">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="student-life.html">Student Life</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </nav>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="student-life.html">Student Life</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <section id="hero-banner">
+          <div class="banner-content">
+            <h2>Welcome to Springdale High</h2>
+            <p>Nurturing minds, building character.</p>
+            <a href="admissions.html" class="btn btn-primary"
+              >Apply Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </section>
+
+        <section id="welcome-message" class="container">
+          <h2 class="section-title">A Message from Our Headmaster</h2>
+          <div class="message-content">
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Headmaster Photo"
+              class="headmaster-photo"
+            />
+            <p>
+              Welcome to Springdale High! We are a community dedicated to
+              fostering academic excellence and personal growth in a supportive
+              environment. Our mission is to empower students to become
+              critical thinkers, compassionate leaders, and lifelong learners.
+              We invite you to explore our website and discover the vibrant life
+              at our school.
+            </p>
+          </div>
+        </section>
+
+        <section id="mission-vision" class="container">
+          <div class="mission-vision-item">
+            <h3>Our Mission</h3>
+            <p>
+              To provide a challenging and supportive learning environment that
+              encourages high expectations for success.
+            </p>
+          </div>
+          <div class="mission-vision-item">
+            <h3>Our Vision</h3>
+            <p>
+              To be a leading institution recognized for our innovative
+              approach to education and our commitment to student success.
+            </p>
+          </div>
+        </section>
+
+        <section id="quick-links" class="container">
+          <h2 class="section-title">Quick Links</h2>
+          <div class="links-grid">
+            <a href="academics.html" class="link-card">
+              <i class="fas fa-book-open"></i>
+              <span>Academics</span>
+            </a>
+            <a href="admissions.html" class="link-card">
+              <i class="fas fa-user-plus"></i>
+              <span>Admissions</span>
+            </a>
+            <a href="student-life.html" class="link-card">
+              <i class="fas fa-users"></i>
+              <span>Student Life</span>
+            </a>
+            <a href="contact.html" class="link-card">
+              <i class="fas fa-calendar-alt"></i>
+              <span>Events</span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p class="tagline">Nurturing the leaders of tomorrow.</p>
+          <p class="copyright">
+            &copy; <span id="current-year"></span> Springdale High. All Rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>
